@@ -46,6 +46,9 @@
   - [X] 보너스 번호가 당첨 번호와 중복되는 경우
   - [X] 보너스 번호가 1~45 범위가 아닌 경우 
 
+### 7. 로또 컨트롤러    `LottoController`
+  - [X] 잘못된 입력이 들어오면 다시 입력
+
 ---
 
 ## TEST
@@ -53,4 +56,3 @@
   - [X] 당첨 번호와 보너스 번호 테스트 `WinningBonusNumberTest`
   - [X] 당첨 결과 및 수익률 계산 테스트  `LottoResultTest`
   - [X] 로또 발행 테스트     `LottoTest`
-  - [ ] `Application` 통합 테스트
