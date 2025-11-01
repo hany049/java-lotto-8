@@ -51,6 +51,6 @@
 ## TEST
   - [X] 구입 금액 입력 테스트    `PurchaseAmountTest`
   - [X] 당첨 번호와 보너스 번호 테스트 `WinningBonusNumberTest`
-  - [X] 당첨 여부 및 당첨 순위 테스트  `LottoResultTest`
+  - [X] 당첨 결과 및 수익률 계산 테스트  `LottoResultTest`
   - [X] 로또 발행 테스트     `LottoTest`
   - [ ] `Application` 통합 테스트
