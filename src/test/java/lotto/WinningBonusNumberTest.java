@@ -9,8 +9,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import java.util.List;
-
 import static org.assertj.core.api.Assertions.*;
 
 public class WinningBonusNumberTest {
@@ -77,7 +75,7 @@ public class WinningBonusNumberTest {
         @DisplayName("중복 예외 확인")
         void 중복_예외_확인 (String inputs) {
             assertThatThrownBy(() -> new BonusNumber(inputs,winningNumber)).isInstanceOf(IllegalArgumentException.class)
-                    .hasMessageContaining(Message.DUPLICATION.getMessage());
+                    .hasMessageContaining(Message.BONUSDUPLICATION.getMessage());
         }
     }
 }

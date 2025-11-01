@@ -31,7 +31,7 @@ public class BonusNumber {
         }
 
         if (winningNumber.getNumbers().contains(bonusNumber)) {
-            throw new IllegalArgumentException(Message.DUPLICATION.getMessage());
+            throw new IllegalArgumentException(Message.BONUSDUPLICATION.getMessage());
         }
     }
 

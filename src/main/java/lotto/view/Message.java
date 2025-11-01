@@ -15,7 +15,7 @@ public enum Message {
     MATCH6("6개 일치 (2,000,000,000원) - "),
     NUMBER("개"),
     TOTALRETURNS("총 수익률은 "),
-    PERCENT("% 입니다."),
+    PERCENT("%입니다."),
 
     ERROR("[ERROR]"),
     NOTINT("숫자가 아닙니다, 숫자를 입력해 주세요!!!"),
